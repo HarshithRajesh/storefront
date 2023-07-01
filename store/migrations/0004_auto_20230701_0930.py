@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
             INSERT INTO store_collection (title)
             VALUES ('collection')
         """ ,"""
-            DELETE FROM store_colletion
-            WHERE title = 'collecton'
+            DELETE FROM store_collection
+            WHERE title = 'collection'
         """)
     ]
