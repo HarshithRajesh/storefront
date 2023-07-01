@@ -15,6 +15,7 @@ from pathlib import Path
 load_dotenv()
 
 DATABASE_PASS = os.getenv('DATABASE_PASSWORD')
+DJANGO_SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-($$+nuc)mt3@3yn%cngp=er_21btk1^f9)9%o5tvu=@d9ygn_y'
+SECRET_KEY = DJANGO_SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
