@@ -20,6 +20,7 @@ import debug_toolbar
 from django.conf import settings
 
 
+admin.site.site_header = 'Storefront admin'
 #playground/hello
 urlpatterns = [
     path('admin/', admin.site.urls),
