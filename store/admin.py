@@ -13,4 +13,3 @@ class CustomerAdmin(admin.ModelAdmin):
     ordering = ['first_name']
     list_per_page = 10
 admin.site.register(models.Collection)
-#random
