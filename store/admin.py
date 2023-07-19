@@ -44,3 +44,5 @@ class CustomerAdmin(admin.ModelAdmin):
 @admin.register(models.Order)
 class OrderAdmin(admin.ModelAdmin):
     list_display =['id','placed_at','customer']
+
+#random
